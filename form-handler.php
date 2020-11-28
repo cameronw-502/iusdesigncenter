@@ -6,13 +6,13 @@
 // URL of this file using https
 $scriptUrl = "https://".$_SERVER["HTTP_HOST"].$_SERVER["SCRIPT_NAME"];
 // Email "subject"
-$title = 'New message from my Landing page';
+$title = 'IUS Design Center';
 // Email field "From" - name of sender (e.g. your first & last name)
-$from_name = "John Jonson";
+$from_name = "IUS Design Center";
 // Email field "From" - email of sender (e.g. "robot@domain.com")
-$from_email = "robot@domain.com";
+$from_email = "camwhite1@outlook.com";
 // Email to receive message - PUT YOUR EMAIL HERE (or leave it blank if you won't receive emails)
-$to = ""; // e.g. my@email.com"
+$to = "camwhite1@outlook.com"; // e.g. my@email.com"
 // Telegram integration: token of created bot
 //(leave string empty if you don't want to use Telegram integration or check how to get Token here: https://designmodo.com/startup/documentation/#telegram)
 $telegramToken ='';
