@@ -818,3 +818,8 @@ b, strong {
     border-bottom: 2px solid #EBEAED;
   }
 }
+
+
+.mobile-logo {
+    width: 25px;
+}
