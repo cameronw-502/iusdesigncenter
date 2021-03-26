@@ -10,9 +10,9 @@ $title = 'IUS Design Center';
 // Email field "From" - name of sender (e.g. your first & last name)
 $from_name = "IUS Design Center";
 // Email field "From" - email of sender (e.g. "robot@domain.com")
-$from_email = "camwhite1@outlook.com";
+$from_email = "";
 // Email to receive message - PUT YOUR EMAIL HERE (or leave it blank if you won't receive emails)
-$to = "camwhite1@outlook.com"; // e.g. my@email.com"
+$to = ""; // e.g. my@email.com"
 // Telegram integration: token of created bot
 //(leave string empty if you don't want to use Telegram integration or check how to get Token here: https://designmodo.com/startup/documentation/#telegram)
 $telegramToken ='';
@@ -24,10 +24,10 @@ $telegramChatId = '';
 $viberToken = '';
 // MailChimp integration: Your API key 
 //(leave string empty if you don't want to use MailChimp integration or check how to get your API key here: https://designmodo.com/startup/documentation/#mailchimp)
-$MailChimpAPIkey = '';
+$MailChimpAPIkey = 'c8ce10c2b00c76ae6261c6749f7f0ccb-us1';
 // MailChimp integration: ID of list where contact will be added to
 //(leave string empty if you don't want to use MailChimp integration or check how to get ID of list here: https://designmodo.com/startup/documentation/#mailchimp)
-$MailChimpListID = '';
+$MailChimpListID = 'beaf6c99e7';
 // SendInBlue integration: Your API key 
 //(leave string empty if you don't want to use SendInBlue integration or check how to get your API key here: https://designmodo.com/startup/documentation/#sendinblue)
 $sendInBlueAPIkey = '';
