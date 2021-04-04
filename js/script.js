@@ -1227,3 +1227,33 @@ axios
     document.getElementById("project2_description").innerHTML =
       response.data[1]["Project Description"];
   });
+
+axios
+  .get("https://sheetdb.io/api/v1/xto5i3446ap5x?sheet=Other")
+  .then((response) => {
+    console.log(response.data);
+    document.getElementById("header_title").innerHTML =
+      response.data[0]["Header Title"];
+    document.getElementById("header_description").innerHTML =
+      response.data[0]["Header Title Description"];
+    document.getElementById("about_title").innerHTML =
+      response.data[0]["About Section - Title"];
+    document.getElementById("about_description1").innerHTML =
+      response.data[0]["About Section - Content 1"];
+    document.getElementById("about_description2").innerHTML =
+      response.data[0]["About Section - Content 2"];
+    document.getElementById("about_description3").innerHTML =
+      response.data[0]["About Section - Content 3"];
+    document.getElementById("project_title").innerHTML =
+      response.data[0]["Projects Section - Title"];
+    document.getElementById("project_description").innerHTML =
+      response.data[0]["Projects Section - Description"];
+    document.getElementById("team_title").innerHTML =
+      response.data[0]["Team Members - Title"];
+    document.getElementById("team_description").innerHTML =
+      response.data[0]["Team Members - Description"];
+    document.getElementById("contact_title").innerHTML =
+      response.data[0]["Contact Us - Title"];
+    document.getElementById("copyright").innerHTML =
+      "&copy IUS Design Center " + response.data[0]["Copyright"];
+  });
