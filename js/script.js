@@ -1156,107 +1156,107 @@ function SF_scripts() {
   }
 } // SF_scripts end
 
-axios
-  .get("https://sheetdb.io/api/v1/xto5i3446ap5x?sheet=Team1")
-  .then((response) => {
-    console.log(response.data);
-    document.getElementById("memberName1_image").src = response.data[0].Image;
-    document.getElementById("memberName1").innerHTML = response.data[0].Name;
-    document.getElementById("memberName1_role").innerHTML =
-      response.data[0].Role;
-    document.getElementById("memberName1_description").innerHTML =
-      response.data[0].Description;
+// axios
+//   .get("https://sheetdb.io/api/v1/xto5i3446ap5x?sheet=Team1")
+//   .then((response) => {
+//     console.log(response.data);
+//     document.getElementById("memberName1_image").src = response.data[0].Image;
+//     document.getElementById("memberName1").innerHTML = response.data[0].Name;
+//     document.getElementById("memberName1_role").innerHTML =
+//       response.data[0].Role;
+//     document.getElementById("memberName1_description").innerHTML =
+//       response.data[0].Description;
 
-    document.getElementById("member2_image").src = response.data[1].Image;
-    document.getElementById("member2_name").innerHTML = response.data[1].Name;
-    document.getElementById("member2_role").innerHTML = response.data[1].Role;
-    document.getElementById("member2_description").innerHTML =
-      response.data[1].Description;
+//     document.getElementById("member2_image").src = response.data[1].Image;
+//     document.getElementById("member2_name").innerHTML = response.data[1].Name;
+//     document.getElementById("member2_role").innerHTML = response.data[1].Role;
+//     document.getElementById("member2_description").innerHTML =
+//       response.data[1].Description;
 
-    document.getElementById("member3_image").src = response.data[2].Image;
-    document.getElementById("member3_name").innerHTML = response.data[2].Name;
-    document.getElementById("member3_role").innerHTML = response.data[2].Role;
-    document.getElementById("member3_description").innerHTML =
-      response.data[2].Description;
+//     document.getElementById("member3_image").src = response.data[2].Image;
+//     document.getElementById("member3_name").innerHTML = response.data[2].Name;
+//     document.getElementById("member3_role").innerHTML = response.data[2].Role;
+//     document.getElementById("member3_description").innerHTML =
+//       response.data[2].Description;
 
-    document.getElementById("member4_image").src = response.data[3].Image;
-    document.getElementById("member4_name").innerHTML = response.data[3].Name;
-    document.getElementById("member4_role").innerHTML = response.data[3].Role;
-    document.getElementById("member4_description").innerHTML =
-      response.data[3].Description;
+//     document.getElementById("member4_image").src = response.data[3].Image;
+//     document.getElementById("member4_name").innerHTML = response.data[3].Name;
+//     document.getElementById("member4_role").innerHTML = response.data[3].Role;
+//     document.getElementById("member4_description").innerHTML =
+//       response.data[3].Description;
 
-    document.getElementById("member5_image").src = response.data[4].Image;
-    document.getElementById("member5_name").innerHTML = response.data[4].Name;
-    document.getElementById("member5_role").innerHTML = response.data[4].Role;
-    document.getElementById("member5_description").innerHTML =
-      response.data[4].Description;
+//     document.getElementById("member5_image").src = response.data[4].Image;
+//     document.getElementById("member5_name").innerHTML = response.data[4].Name;
+//     document.getElementById("member5_role").innerHTML = response.data[4].Role;
+//     document.getElementById("member5_description").innerHTML =
+//       response.data[4].Description;
 
-    document.getElementById("member6_image").src = response.data[5].Image;
-    document.getElementById("member6_name").innerHTML = response.data[5].Name;
-    document.getElementById("member6_role").innerHTML = response.data[5].Role;
-    document.getElementById("member6_description").innerHTML =
-      response.data[5].Description;
+//     document.getElementById("member6_image").src = response.data[5].Image;
+//     document.getElementById("member6_name").innerHTML = response.data[5].Name;
+//     document.getElementById("member6_role").innerHTML = response.data[5].Role;
+//     document.getElementById("member6_description").innerHTML =
+//       response.data[5].Description;
 
-    document.getElementById("member7_image").src = response.data[6].Image;
-    document.getElementById("member7_name").innerHTML = response.data[6].Name;
-    document.getElementById("member7_role").innerHTML = response.data[6].Role;
-    document.getElementById("member7_description").innerHTML =
-      response.data[6].Description;
+//     document.getElementById("member7_image").src = response.data[6].Image;
+//     document.getElementById("member7_name").innerHTML = response.data[6].Name;
+//     document.getElementById("member7_role").innerHTML = response.data[6].Role;
+//     document.getElementById("member7_description").innerHTML =
+//       response.data[6].Description;
 
-    document.getElementById("member8_image").src = response.data[7].Image;
-    document.getElementById("member8_name").innerHTML = response.data[7].Name;
-    document.getElementById("member8_role").innerHTML = response.data[7].Role;
-    document.getElementById("member8_description").innerHTML =
-      response.data[7].Description;
-  });
+//     document.getElementById("member8_image").src = response.data[7].Image;
+//     document.getElementById("member8_name").innerHTML = response.data[7].Name;
+//     document.getElementById("member8_role").innerHTML = response.data[7].Role;
+//     document.getElementById("member8_description").innerHTML =
+//       response.data[7].Description;
+//   });
 
-axios
-  .get("https://sheetdb.io/api/v1/xto5i3446ap5x?sheet=Projects")
-  .then((response) => {
-    console.log(response.data);
-    document.getElementById("project1_image").src =
-      response.data[0]["Project Image"];
-    document.getElementById("project1_name").innerHTML =
-      response.data[0]["Project Name"];
-    document.getElementById("project1_description").innerHTML =
-      response.data[0]["Project Description"];
-    document.getElementById("project2_image").src =
-      response.data[1]["Project Image"];
-    document.getElementById("project2_name").innerHTML =
-      response.data[1]["Project Name"];
-    document.getElementById("project2_description").innerHTML =
-      response.data[1]["Project Description"];
-  });
+// axios
+//   .get("https://sheetdb.io/api/v1/xto5i3446ap5x?sheet=Projects")
+//   .then((response) => {
+//     console.log(response.data);
+//     document.getElementById("project1_image").src =
+//       response.data[0]["Project Image"];
+//     document.getElementById("project1_name").innerHTML =
+//       response.data[0]["Project Name"];
+//     document.getElementById("project1_description").innerHTML =
+//       response.data[0]["Project Description"];
+//     document.getElementById("project2_image").src =
+//       response.data[1]["Project Image"];
+//     document.getElementById("project2_name").innerHTML =
+//       response.data[1]["Project Name"];
+//     document.getElementById("project2_description").innerHTML =
+//       response.data[1]["Project Description"];
+//   });
 
-axios
-  .get("https://sheetdb.io/api/v1/xto5i3446ap5x?sheet=Other")
-  .then((response) => {
-    console.log(response.data);
-    document.getElementById("header_title").innerHTML =
-      response.data[0]["Header Title"];
-    document.getElementById("header_description").innerHTML =
-      response.data[0]["Header Title Description"];
-    document.getElementById("about_title").innerHTML =
-      response.data[0]["About Section - Title"];
-    document.getElementById("about_description1").innerHTML =
-      response.data[0]["About Section - Content 1"];
-    document.getElementById("about_description2").innerHTML =
-      response.data[0]["About Section - Content 2"];
-    document.getElementById("about_description3").innerHTML =
-      response.data[0]["About Section - Content 3"];
-    document.getElementById("project_title").innerHTML =
-      response.data[0]["Projects Section - Title"];
-    document.getElementById("project_description").innerHTML =
-      response.data[0]["Projects Section - Description"];
-    document.getElementById("team_title").innerHTML =
-      response.data[0]["Team Members - Title"];
-    document.getElementById("team_description").innerHTML =
-      response.data[0]["Team Members - Description"];
-    document.getElementById("contact_title").innerHTML =
-      response.data[0]["Contact Us - Title"];
-    document.getElementById("copyright").innerHTML =
-      "&copy IUS Design Center " + response.data[0]["Copyright"];
-  });
+// axios
+//   .get("https://sheetdb.io/api/v1/xto5i3446ap5x?sheet=Other")
+//   .then((response) => {
+//     console.log(response.data);
+//     document.getElementById("header_title").innerHTML =
+//       response.data[0]["Header Title"];
+//     document.getElementById("header_description").innerHTML =
+//       response.data[0]["Header Title Description"];
+//     document.getElementById("about_title").innerHTML =
+//       response.data[0]["About Section - Title"];
+//     document.getElementById("about_description1").innerHTML =
+//       response.data[0]["About Section - Content 1"];
+//     document.getElementById("about_description2").innerHTML =
+//       response.data[0]["About Section - Content 2"];
+//     document.getElementById("about_description3").innerHTML =
+//       response.data[0]["About Section - Content 3"];
+//     document.getElementById("project_title").innerHTML =
+//       response.data[0]["Projects Section - Title"];
+//     document.getElementById("project_description").innerHTML =
+//       response.data[0]["Projects Section - Description"];
+//     document.getElementById("team_title").innerHTML =
+//       response.data[0]["Team Members - Title"];
+//     document.getElementById("team_description").innerHTML =
+//       response.data[0]["Team Members - Description"];
+//     document.getElementById("contact_title").innerHTML =
+//       response.data[0]["Contact Us - Title"];
+//     document.getElementById("copyright").innerHTML =
+//       "&copy IUS Design Center " + response.data[0]["Copyright"];
+//   });
 
 $("#slideshow > div:gt(0)").hide();
 
@@ -1268,3 +1268,14 @@ setInterval(function () {
     .end()
     .appendTo("#slideshow");
 }, 9000);
+
+const data = null;
+
+const xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function () {
+  if (this.readyState === this.DONE) {
+    console.log(this.responseText);
+  }
+});
