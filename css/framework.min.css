@@ -9917,3 +9917,13 @@ input[type="radio"] + label:before {
   right: 10px;
   bottom: 10px;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  flex-wrap: wrap;
+  padding: 5px;
+}
