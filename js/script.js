@@ -1210,23 +1210,32 @@ function SF_scripts() {
 //       response.data[7].Description;
 //   });
 
-// axios
-//   .get("https://sheetdb.io/api/v1/xto5i3446ap5x?sheet=Projects")
-//   .then((response) => {
-//     console.log(response.data);
-//     document.getElementById("project1_image").src =
-//       response.data[0]["Project Image"];
-//     document.getElementById("project1_name").innerHTML =
-//       response.data[0]["Project Name"];
-//     document.getElementById("project1_description").innerHTML =
-//       response.data[0]["Project Description"];
-//     document.getElementById("project2_image").src =
-//       response.data[1]["Project Image"];
-//     document.getElementById("project2_name").innerHTML =
-//       response.data[1]["Project Name"];
-//     document.getElementById("project2_description").innerHTML =
-//       response.data[1]["Project Description"];
-//   });
+//char descriptionTest = "one two three four five";
+
+axios
+  .get("https://sheetdb.io/api/v1/xto5i3446ap5x?sheet=Projects")
+  .then((response) => {
+    console.log(response.data);
+    // document.getElementById("project1_image").src =
+    //   response.data[0]["Project Image"];
+    // document.getElementById("project1_name").innerHTML =
+    //   response.data[0]["Project Name"];
+    // document.getElementById("project1_description").innerHTML =
+    //   response.data[0]["Project Description"];
+    // document.getElementById("project2_image").src =
+    //   response.data[1]["Project Image"];
+    // document.getElementById("project2_name").innerHTML =
+    //   response.data[1]["Project Name"];
+    // document.getElementById("project2_description").innerHTML =
+    //   response.data[1]["Project Description"];
+    //   document.getElementById("project2_description").innerHTML =
+    //     response.data[1]["Project Description"]
+    //       .split(" ")
+    //       .slice(0, 25)
+    //       .join(" ") + "... </n></n>";
+    //   document.getElementById("project2_description_all").innerHTML =
+    //     response.data[1]["Project Description"];
+  });
 
 // axios
 //   .get("https://sheetdb.io/api/v1/xto5i3446ap5x?sheet=Other")
@@ -1257,6 +1266,10 @@ function SF_scripts() {
 //     document.getElementById("copyright").innerHTML =
 //       "&copy IUS Design Center " + response.data[0]["Copyright"];
 //   });
+// String full_text;
+// function projectDescriptionHome(full_text) {
+//   full_text.slice(0, 20);
+// }
 
 $("#slideshow > div:gt(0)").hide();
 
@@ -1267,7 +1280,7 @@ setInterval(function () {
     .fadeIn(1000)
     .end()
     .appendTo("#slideshow");
-}, 9000);
+}, 15000);
 
 const data = null;
 
